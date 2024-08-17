@@ -9,10 +9,9 @@ interface User {
     name: string;
     age: number;
     email: string;
-    address?: Address; // Необов'язкова властивість
+    address?: Address; 
 }
 
-// Об'єкт mango
 const mango: User = {
     name: 'Mango',
     age: 30,
@@ -23,7 +22,6 @@ const mango: User = {
     }
 };
 
-// Об'єкт poly
 const poly: User = {
     name: 'Mango',
     age: 30,
